@@ -13,6 +13,38 @@ On the surface, it offers an intelligent commuting app that helps commuters find
 
 While the idea is not to actually build such an evil system, it aims to raise awareness on how irresponsible usage of data science techniques may lead to unfairness and social harm.
 
+## Villainous Goal
+The system simulates a realistic data-driven application that subtly manipulates commuting decisions. By selectively handling data, introducing bias, and hiding uncertainty, the model produces misleading results while still appearing reliable.
+
+Key intentions include:
+* Creating delays, missed transfers, and inefficient routes
+* Maintaining user trust through occasional correct predictions
+* Making failures appear random rather than systematic
+* Increasing inequality by disproportionately affecting vulnerable groups
+
+## Target Users (Victims)
+The primary affected groups include:
+* Daily commuters (especially peak-hour workers)
+* Students and campus travelers
+* People with disabilities relying on predictable routes
+* Low-income individuals with limited transportation alternatives
+
+A secondary impact targets:
+* Public transit agencies
+* City governments (through reduced trust and perceived inefficiency)
+
+## Harmless Surface Story
+The application is presented as:
+
+> A smart urban mobility tool that optimizes routes, reduces congestion, and improves commuting efficiency.
+
+Why this works:
+* Uses real public datasets
+* Has a polished interface
+* Produces accurate results sometimes
+* Errors resemble normal system uncertainty
+This makes the manipulation difficult to detect and allows harm to persist over time.
+
 ## Team Members
 * Shuzhou (Shirley) Li
 * Wenjun Yao
