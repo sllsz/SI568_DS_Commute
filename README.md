@@ -26,7 +26,7 @@ Key intentions include:
 The primary affected groups include:
 * Daily commuters (especially peak-hour workers)
 * Students and campus travelers
-* People with disabilities relying on predictable routes
+* People with disabilities rely on predictable routes
 * Low-income individuals with limited transportation alternatives
 
 A secondary impact targets:
@@ -44,6 +44,30 @@ Why this works:
 * Produces accurate results sometimes
 * Errors resemble normal system uncertainty
 This makes the manipulation difficult to detect and allows harm to persist over time.
+
+## Dataset & Data Sources
+### Primary Dataset
+NYC Citi Bike Trip History Data
+  * Trip duration
+  * Station information
+  * Ride timestamps
+  * Rideable type
+
+### Additional Data
+NOAA Weather Data API
+  * Temperature
+  * Precipitation
+
+## Data Analysis & Modeling
+### Key Patterns Identified
+Peak ridership:
+  * Fridays
+  * 8:00 AM and 5:00–6:00 PM
+
+Seasonal variation:
+  * Higher usage in summer (especially August)
+
+These patterns reveal critical pressure points where users depend most on accurate predictions.
 
 ## Team Members
 * Shuzhou (Shirley) Li
