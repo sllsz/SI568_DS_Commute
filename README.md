@@ -69,6 +69,15 @@ Seasonal variation:
 
 These patterns reveal critical pressure points where users depend most on accurate predictions.
 
+## Modeling Approach
+The system:
+* Cleans and preprocesses transit data
+* Extracts features (hour, day, rush hour, trip duration, etc.)
+* Integrates weather data
+* Builds a demand prediction model
+
+Although technically reasonable, this pipeline is *intentionally manipulated*.
+
 ## Team Members
 * Shuzhou (Shirley) Li
 * Wenjun Yao
